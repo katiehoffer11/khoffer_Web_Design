@@ -1,0 +1,110 @@
+.navlayout {
+  right: 90px;
+  padding: 14px 16px;
+  background-color: white;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.box1 {
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: white; 
+  padding: 25px;
+}
+
+
+.title {
+  font-size: 25px;
+  color: teal;
+  font-weight:bold;
+}
+
+.chart-title {
+  font-size: 16px;
+  color: teal;
+  font-weight:bold;
+  text-align:center;
+}
+
+.home-image {
+  width:70%;
+  height:70%;
+  float: left; 
+  margin-right:10px;
+}
+
+.visualization-image {
+  width:110%;
+  height:110%;
+  padding: 10px;
+}
+
+.main-image {
+  width:100%;
+  height:100%;
+  padding: 10px;
+}
+
+.comparison-image {
+
+  margin-left: -15px;
+  margin-top: -25px;
+  padding: 20px;
+}
+
+p {
+  color: darkslategray;
+  font-size: 14px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+
+
+table {
+  font-size: 12px; 
+}
+
+
+@media (max-width: 768px) {
+    
+  .box1 {
+    margin-top: 15px;
+    padding: 15px;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+
+  
+  .home-image {
+    width:50%;
+    height:50%;
+  }
+  
+  .visualization-image {
+    width:100%;
+    height:100%;
+  }
+  
+  p { 
+    font-size: 12px;
+  }
+  
+  table {
+    font-size: 11px; 
+   
+  }
+
+}
